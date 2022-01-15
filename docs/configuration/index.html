@@ -44,6 +44,7 @@
 <li class="toctree-l2"><a class="reference internal" href="schema-constraints.html">Schema constraints</a></li>
 <li class="toctree-l2"><a class="reference internal" href="python-configuration.html">Python configuration</a></li>
 <li class="toctree-l2"><a class="reference internal" href="yaml-configuration.html">YAML configration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="using-groups-file.html">Using groups-file</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../examples/index.html">Examples</a></li>
@@ -104,6 +105,14 @@ These options are the following:</p>
 </div>
 </li>
 <li><div class="line-block">
+<div class="line"><code class="docutils literal notranslate"><span class="pre">groups_file</span></code>: path to a YAML file containing group definitions. Format is that same as used by
+<code class="docutils literal notranslate"><span class="pre">SimpleInventory</span></code></div>
+<div class="line">This parameter is ignored when <code class="docutils literal notranslate"><span class="pre">groups_query</span></code> is specified!</div>
+<div class="line">Using this parameter requires group assignments outside of this plugin!
+Check <a class="reference external" href="https://viktorkertesz.github.io/nornir_sql/configuration/using-groups-file.html">docs</a>!</div>
+</div>
+</li>
+<li><div class="line-block">
 <div class="line"><code class="docutils literal notranslate"><span class="pre">defaults</span></code>: This is a dictionary which contains inventory elements. These will be applied to hosts.</div>
 </div>
 </li>
@@ -126,6 +135,7 @@ These options are the following:</p>
 <li class="toctree-l1"><a class="reference internal" href="schema-constraints.html">Schema constraints</a></li>
 <li class="toctree-l1"><a class="reference internal" href="python-configuration.html">Python configuration</a></li>
 <li class="toctree-l1"><a class="reference internal" href="yaml-configuration.html">YAML configration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="using-groups-file.html">Using groups-file</a></li>
 </ul>
 </div>
 </div>
